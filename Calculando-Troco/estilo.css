@@ -1,0 +1,30 @@
+body {
+    background: rgb(231, 207, 174);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    font: normal 13pt Arial;
+    text-align: center;
+    
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+select#passlista {
+    width: 470px;
+}
+
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+}

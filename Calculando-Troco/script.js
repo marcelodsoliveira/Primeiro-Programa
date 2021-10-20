@@ -9,8 +9,6 @@ function verificar() {
     } else {
         var vconta = Number(valorconta.value)
         var vpago = Number(valorpago.value)
-        //var troco = ()
-        //res.innerHTML = ''
         if ( vpago > vconta ) {
             var troco = (vpago - vconta)
         }

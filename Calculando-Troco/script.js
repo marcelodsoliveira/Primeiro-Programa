@@ -13,6 +13,9 @@ function verificar() {
             var troco = (vpago - vconta)
         }
         res1.innerHTML = `O troco será: ${troco} R$`
+
+        registerLog(vconta,vpago);
+        showLog();
     }      
     
   
@@ -36,7 +39,9 @@ var passdia = document.createElement('option')
 */
 
 function finalizar(){
-    window.alert('Função OK, mas ainda está em desenvolvimento') // Função OK
+    // window.alert('Função OK, mas ainda está em desenvolvimento') // Função OK
+    removeOptions(document.getElementById('passlista'))
+    clearLog();
 }
 
 

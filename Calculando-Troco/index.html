@@ -9,11 +9,11 @@
     <link rel="shortcut icon" href="./images/glider.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>Calculando troco da passagem</h1>
+    <header id="main-header">
+        <h1 class="h1-header">Calculando troco da passagem</h1>
     </header>
-    <section>
-        <div>
+    <section id="main-section">
+        <div class="div-values">
             <p> Digite o valor atual da passagem:
                 <input type="number" placeholder="1.0" step="0.01" name="txtvalorconta" id="txtvalorconta" min="0" max="10">
             </p>
@@ -26,10 +26,10 @@
             <p> O troco será: </p>
         </div>
     </section><br>
-    <section>
+    <section id="second-section">
         <div id="res2">
             <p>Passageiros do dia, valor pago e troco utilizado:</p>
-            <select name="passlista" id="passlista" size="6"></select>
+            <select class="logs" name="passlista" id="passlista" size="6"></select>
         </div>
         <div>
             <p>__________________________________________</p>
@@ -41,7 +41,7 @@
     <footer>
         <p>&copy; Marcelo Oliveira</p>
     </footer>
-    <script src="log.js"></script> <!-- Adicionado pelo chará Marcelo Kortkamp -->>
+    <script src="log.js"></script> <!-- Adicionado pelo chará Marcelo Kortkamp -->
     <script src="script.js"></script>
 </body>
 </html>
